@@ -211,6 +211,22 @@ button::-moz-focus-inner,
   padding: 0;
 }
 
+#button-search {
+  margin-bottom: 10px;
+}
+
+#mensagemInput
+{
+  height:200px;
+  white-space: pre-wrap;
+  font-family: 'Lucida Console', Monaco, monospace;
+  font-size: 18px; 
+  line-height: 1.6; 
+  font-weight: bold; 
+  color: #333; 
+  resize:none;
+  border:none;
+}
 /**
  * Restore the focus styles unset by the previous rule.
  */

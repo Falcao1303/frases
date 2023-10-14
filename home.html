@@ -22,10 +22,9 @@
         <div class="col-md-6 col-sm-4"> <!-- Mantida como col-md-6 para uma largura menor -->
             <div class="jumbotron">
                 <div class="form-group">
-                    <label for="mensagemInput">Busque aqui sua mensagem</label>
-                    <input type="text" class="form-control" id="mensagemInput" ng-model="mensagem_gerada" disabled>
+                    <button class="btn btn-success btn-block" id="button-search" ng-click="descobrirMensagem()">Descubra sua mensagem feliz :D</button>
+                    <textarea type="text" class="form-control" id="mensagemInput" ng-model="mensagem_gerada" disabled></textarea>
                 </div>
-                <button class="btn btn-success btn-block" ng-click="descobrirMensagem()">Descubra sua mensagem feliz :D</button>
             </div>
         </div>
         <div class="col-md-3 col-sm-4 text-center">
